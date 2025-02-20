@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google reCAPTCHA Example</title>
+    
+<script src="https://www.google.com/recaptcha/api.js?render=6Lew49QqAAAAAGhrCuB-UxNSwcg67xLh3QcYq1I9"></script>
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6Lew49QqAAAAAGhrCuB-UxNSwcg67xLh3QcYq1I9', {action: 'submit'}).then(function(token) {
+            document.getElementById("recaptchaResponse").value = token;
+        });
+    });
+</script>
+  
+</head>
+<body>
+    <form action="/google-recaptcha.html" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <!-- Google reCAPTCHA -->
+        <input type="text" name="g-recaptcha-response" id="recaptchaResponse">
+
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
