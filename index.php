@@ -145,6 +145,27 @@
                     </a>
 
                     <a href="" class="home-works">
+                        <img src="images/home/works/krc-default.jpg" alt="">
+                        <div class="home-project-work">
+                            <h3>KRC</h3>
+                            <div class="home-works-types">
+                                <div>
+                                    <p>Logo Design</p>
+                                    <p>Nomenclature</p>
+                                    <p>Animations</p>
+                                </div>
+                                <div>
+                                    <p>Brand Design</p>
+                                    <p>Print Collaterals & Visuals</p>
+                                </div>
+                                <div>
+                                    <p>Social Media Creatives</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="home-works">
                         <img src="images/home/works/silver-stallion-default.jpg" alt="">
                         <div class="home-project-work">
                             <h3>SILVER <br> STALLION</h3>
