@@ -75,7 +75,7 @@
                     </div>
                     <div class="introwrap">
                         <p id="scrollText">Reinvigorate your designs and brand with a fresh boost to think bigger, inspiring people to imagine themselves in a larger sphere.</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, soluta.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugit doloribus cupiditate ab, reiciendis dignissimos quod aut vel est magnam velit deleniti nostrum molestiae inventore, harum provident eaque veniam molestias?</p>
                     </div>
                 </div>
             </div>
