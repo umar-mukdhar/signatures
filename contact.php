@@ -52,6 +52,7 @@
 
                     <div class="contact-form">
                         <h2>Let’s inspire the world into the future</h2>
+                        <h2>New github text</h2>
                         <div class="contact-form-flex">
 
                             <form id="contactform-flex" name="contactform-flex" class="contactform-flex" method="POST">
